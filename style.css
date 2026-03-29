@@ -1,0 +1,35 @@
+The CMS-ready website folder has been prepared for deployment. To create a deploy-ready ZIP, follow these
+steps:
+1. 
+Ensure the folder structure is exactly as below:
+taxi-ziyarat-website/
+│  index.html
+│  style.css
+│  script.js
+│
+├─ images/
+│   └─ uploads/
+│
+├─ admin/
+│   ├─ index.html
+│   └─ config.yml
+│
+└─ content/
+├─ services/
+├─ reviews/
+└─ places/
+1. 
+2. 
+3. 
+4. 
+Right-click the 
+taxi-ziyarat-website folder → Select Compress / Zip (Windows: Send to →
+Compressed folder, Mac: Compress folder).
+ZIP file is now ready for direct Netlify deployment.
+Go to Netlify → New site → Drag & drop the ZIP → Site deploy.
+Enable Identity + Git Gateway in Netlify → Invite client → Client can now login via 
+manage content.
+/admin and
+✅ After deployment, your client will have full CMS + admin panel access for services, Ziyarat places,
+reviews, and image uploads.
+1
